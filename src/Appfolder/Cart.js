@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "./Cart.css";
 import { removeFromCart, decreaseQuantity, addToCart } from "../Redux/Action/Action";
@@ -6,10 +6,7 @@ import { removeFromCart, decreaseQuantity, addToCart } from "../Redux/Action/Act
 const Cart = () => {
   const data = useSelector((state) => state.Reducer);
 
-  useEffect(() => {
-    console.log(data.total);
-  }, []);
-
+  
   const Dispatch = useDispatch();
   
   const Total= data.Carts.reduce((accum,items)=>{return accum+(items.quantity*items.price)},0)

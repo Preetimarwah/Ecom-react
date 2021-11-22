@@ -15,19 +15,19 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"><Link to = '/'>Home</Link></a>
+          <a class="nav-link active" href="/home1" aria-current="page"><Link to = '/'>Home</Link></a>
         </li>
         <li class="nav-item dropdown">
-        <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Products</a>
+        <a class="nav-link active dropdown-toggle" href="/home1" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Products</a>
     <ul class="dropdown-menu">
       <li><button class="dropdown-item"><Link to = '/Clothing'>Clothing</Link></button></li>
-      <li><a class="dropdown-item" href="#"><Link to = '/Accessories'>Accesories</Link></a></li>
+      <li><a class="dropdown-item" href="/home1"><Link to = '/Accessories'>Accesories</Link></a></li>
       {/* <li><a class="dropdown-item" href="#">Something else here</a></li>
       <li><a class="dropdown-item" href="#">Separated link</a></li> */}
     </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link"><Link to = '/Cart'>Cart</Link></a>
+          <a class="nav-link" href="/home1"><Link to = '/Cart'>Cart</Link></a>
         </li>
       </ul>
       {/* <form class="d-flex">

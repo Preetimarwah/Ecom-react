@@ -16,16 +16,16 @@ const Footer = () => {
     </div>
 
 <div class="footeritem footeritem2"> 
-    <a href="">About</a><br/>
-    <a href="">Refund Policy</a>
+    <a href="/facebook">About</a><br/>
+    <a href="/facebook">Refund Policy</a>
 </div>
 
     <div class="footeritem footeritem3">
         <p>Follow us on</p>
- <a href="">Facebook</a><br/>
- <a href="">Instagram</a><br/>
- <a href="">Twitter</a><br/>
- <a href="">Youtube</a><br/>
+ <a href="/facebook">Facebook</a><br/>
+ <a href="/facebook">Instagram</a><br/>
+ <a href="/facebook">Twitter</a><br/>
+ <a href="/facebook">Youtube</a><br/>
     </div>
 
     <div class="footeritem footeritem3">
