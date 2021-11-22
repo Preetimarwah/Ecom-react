@@ -1,0 +1,54 @@
+.accessories-flex{  
+      display:flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+}
+
+.accesories-flex-item{
+    margin: 20px 20px 30px 10px;
+    padding:20px;
+    margin:20px;
+
+}
+
+.accesories-flex-item:hover{
+    transform: translateY(-10px);
+  }
+
+
+.accessories-image{
+    height: 280px;
+    width: 280px;
+    padding: auto;
+}
+
+.C2{
+    font-size:20px;
+    font-weight: bold;
+    margin:0px;
+    padding: 0px 2px 0px 2px;
+  }
+  .C2-button {
+    font-size: 18px;
+    margin-top:5px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+
+  
+@media screen and (max-width: 371px){
+
+  .accesories-flex-item{
+    padding:0;
+    margin:0px;
+  }
+
+  
+.accessories-image{
+  height: 200px;
+  width: 200px;
+  padding: auto;
+}
+
+}

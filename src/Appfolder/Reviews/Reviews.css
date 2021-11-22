@@ -1,0 +1,99 @@
+
+/* Reviews */
+.Homereview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .CD3 img{
+    border-radius: 50%;
+  }
+  
+  .CD3{
+    box-shadow:0 0 20px 0px blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+  }
+  .CD3:hover{
+  transform: translateY(-10px);
+  }
+  /* componies logos */
+  
+    .companylogos{
+      display: flex;
+      justify-content:center;
+      /* border: 2px solid black; */
+      flex-direction: row;
+      margin-top:100px;
+      margin-bottom: 100px;
+      margin-left:0px;
+      margin-right:0px;
+    }
+  
+    .uname{
+      font-weight: bold;
+    }
+  
+    .companylogos img {
+      padding: 80px;
+    }
+
+    @media screen and (max-width: 480px){
+
+
+/* Reviews */
+.homereview{
+  margin-top: 80px;
+}
+
+/* company's name */
+
+.companylogos img{
+height: 50px;
+/* margin-left:-50px; */
+padding: 15px;
+/* border: 2px solid green; */
+
+}
+    }
+
+    /* Media query for 481 to 768*/
+@media (min-width:481px) and (max-width:768px){
+
+ /* review section */
+
+ .CD3{
+  margin: 10px;
+}
+
+/* company's name */
+
+.companylogos img{
+height: 50px;
+padding: 5px;
+margin: 5px;
+
+}
+}
+
+
+ /* media querry for 769 to 1024 */
+
+ @media (min-width:769px) and ( max-width: 1024px){
+
+  /* reviews */
+
+.CD3{
+  margin: 15px;
+}
+/* company's name */
+
+.companylogos img{
+  height: 50px;
+  padding: 2px;
+  margin: 10px;
+}
+
+ }

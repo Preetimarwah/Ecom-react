@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+/*   
+  CSS for quote and top image */
+
+.main1{
+    display:flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+  
+  .quote{
+    margin: 10% 6%;
+    /* font-family:'Allison', cursive; */
+  }
+
+  .quote h1{
+    font-size:20px;
+    font-weight: bold;
+    color:rgb(15, 14, 14);
+    padding:8px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .topimage {
+    margin:auto;
+  }
+
+  .topimage img{
+    padding: 30px;
+  }
+
+  /* CSS for 3set of image after big image */
+
+  
+.categories{
+    display: flex;
+    margin-top:70px;
+    justify-content: space-evenly;
+    
+    }
+    .C1 img{
+      height: 400px;
+      padding: 10px;
+    }
+
+    /* CSS for feature products */
+
+    
+.fproducts{
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom:100px;
+  }
+  
+  .ftitle{
+  text-align: center;
+  margin-top: 100px;
+  color: purple;
+  font-family: 'Source Serif Pro', serif;
+  }
+ 
+  .C2{
+    padding:10px;
+  } 
+
+  .C2:hover{
+    transform: translateY(-10px);
+  }
+  
+  .C2 img{
+    height: 350px;
+    margin-top:40px;
+  }
+  
+  .C2 p{
+    font-size:20px;
+    font-weight: bold;
+    margin:0px;
+  }
+  .C2-button {
+    font-size: 18px;
+    margin-top:5px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .fa{
+    color: orangered;
+  }
+  
+
+
+  /* CSS for sales of the week */
+  
+    .saleofweek{
+  display:flex;
+  justify-content: center;
+  padding:80px;
+  align-items: center;
+  justify-content:space-evenly;
+    }
+  
+    .saleofweek img {
+      border:5px white;
+      padding: 20px;
+      margin-top:150px;
+    }
+      
+    .saleofweek :hover {
+      transform: translateY(-10px);
+    }
+
+    /* .salesofweek button{
+      float:center
+    }
+   */
+    
+  
+    .offercontent h1 {
+      font-weight: bold;
+      font-size: 20px;
+      margin-left:0px;
+      font-family: 'Montserrat', sans-serif;
+      /* text-align:center;
+     */
+  
+    }
+
+    .offercontent p{
+      font-weight: bold;
+      font-size: 15px;
+      margin-left:0px;
+      font-family: 'Montserrat', sans-serif;
+      /* text-align:center; */
+      
+      
+  
+    }
+  .P1{
+    text-decoration: line-through;
+  }
+  
+  @media screen and (max-width: 480px){
+  
+    .topimage{
+    display:none
+    }
+    .categories{
+      margin-top:20px;
+    }
+  
+    .C1 img{ 
+      width: 25vw;
+      height: auto;}
+    }
+
+    /* feature products */
+
+.C2 {
+  margin-top:25px;
+}
+
+  /* sale of the week */
+
+ .saleofweek{
+   width: 100%;
+   /* border:5px solid red; */
+   margin-top:0px;
+ }   
+
+ .saleofweek img{
+   height:300px;
+   margin-left: -30px;
+   /* border: 2px solid red; */
+   margin-top: -70px;
+ }
+   .offercontent{
+font-size: 20px;
+margin-top: 0px;
+   }
+
+   .offercontent h1{
+     text-align:center;
+   }
+   .offercontent p{
+    text-align:center;
+  }
+
+  .offercontent button{
+    margin-left:85px;
+  }
+
+   /* Media query for 481 to 768*/
+@media (min-width:481px) and (max-width:768px){
+
+  .topimage{
+    width: 75vw;
+  }
+  
+    .topimage img{
+      width: 100%;
+      height: auto;
+      margin-bottom: 50px;
+    }
+  
+    .categories{
+      margin-top:20px;
+    }
+    .C1 img{ 
+   width: 25vw;
+   height: auto;
+  
+    }
+  
+    .btn1{
+      font-size: 10px;}
+
+      
+/* feature products */
+    .C2{
+      margin-top: 25px;
+      padding: 10px;
+      
+    }
+   
+/* sales of the week */
+    
+  .saleofweek img{
+    height:300px;
+    margin-left: -30px;
+    /* border: 2px solid red; */
+    margin-top: -70px;
+  }
+    .offercontent{
+ font-size: 20px;
+ margin-top: 0px;
+    }
+}
+
+
+ /* media querry for 769 to 1024 */
+
+ @media (min-width:769px) and ( max-width: 1024px){
+
+  .categories{
+    margin-top:80px;
+  }
+
+  .C1 img{ 
+    width: 25vw;
+    height: auto;}
+
+    /* sales of the week */
+   
+    .saleofweek img{
+      height:300px;
+      margin-left: -30px;
+      /* border: 2px solid red; */
+      margin-top: -70px;
+    }
+      .offercontent{
+   font-size: 20px;
+   margin-top: 0px;
+      }
+ }
