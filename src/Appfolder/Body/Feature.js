@@ -19,7 +19,7 @@ const Feature = () => {
 <div class="fproducts">
    { data.map((items)=>{
        return(<div className="C2">
-       <img src={items.image} width="245px"/>
+       <img src={items.image} width="245px" alt=""/>
       <p>{items.name}</p>
         <p>${items.price}</p>
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "./Cart.css";
-import { removeFromCart, increment, increaseQuantity,decreaseQuantity, addToCart } from "../Redux/Action/Action";
+import { removeFromCart, decreaseQuantity, addToCart } from "../Redux/Action/Action";
 
 const Cart = () => {
   const data = useSelector((state) => state.Reducer);
@@ -23,7 +23,7 @@ const Cart = () => {
             <div className="flex123">
               <div className="Cart-item-flexBox">
                 <div className="Cart-image">
-                  <img src={item.image} />
+                  <img src={item.image} alt="" />
                 </div>
                 <div className="cart-item-description">
                   <div>{item.name}</div>

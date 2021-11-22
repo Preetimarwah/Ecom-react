@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar/Navbar";
 import Body from "./Body/Body";
 import "./Body/index.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Footer from "./Footer/Footer";
 import Clothing from "./Clothing";
 import Accessories from './Accessories'

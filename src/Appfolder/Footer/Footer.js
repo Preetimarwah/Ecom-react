@@ -11,8 +11,8 @@ const Footer = () => {
         <h3> Downnload our app from android and Iphone</h3>
 
      
-        <img src="/resources/logo/playstore.jpg" height="100px"/>
-        <img src="/resources/logo/appstore.png" height="70px"/>
+        <img src="/resources/logo/playstore.jpg" height="100px" alt=""/>
+        <img src="/resources/logo/appstore.png" height="70px"alt=""/>
     </div>
 
 <div class="footeritem footeritem2"> 
@@ -37,12 +37,12 @@ const Footer = () => {
 </div>
 <div class="weaccept"><p>WE accept</p> </div>
     <div class="footerpay">      
-<img src="/resources/paylogo/pay1.png" height="50px"/>
-<img src="/resources/paylogo/pay2.png" height="50px"/>
-<img src="/resources/paylogo/pay3.png" height="50px"/>
-<img src="/resources/paylogo/pay4.png" height="50px"/>
-<img src="/resources/paylogo/pay5.png" height="50px"/>
-<img src="/resources/paylogo/pay6.png" height="50px"/>
+<img src="/resources/paylogo/pay1.png" height="50px" alt="" />
+<img src="/resources/paylogo/pay2.png" height="50px" alt=""/>
+<img src="/resources/paylogo/pay3.png" height="50px" alt=""/>
+<img src="/resources/paylogo/pay4.png" height="50px" alt=""/>
+<img src="/resources/paylogo/pay5.png" height="50px" alt=""/>
+<img src="/resources/paylogo/pay6.png" height="50px" alt=""/>
 </div>
 
 <div class="cpr">

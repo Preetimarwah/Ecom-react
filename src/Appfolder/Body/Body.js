@@ -14,7 +14,7 @@ const Body = () => {
 </div>
 
 <div class= "topimage">
-<img src="/resources/images/topimage.jpg" height="500px"/>
+<img src="/resources/images/topimage.jpg" height="500px" alt=""/>
 </div>
 </div>
 
@@ -26,10 +26,10 @@ const Body = () => {
             <img src="/resources/images/dress1.jpg" alt=""/>
         </div>
         <div class="C1">
-            <img src="/resources/images/dress2.jpg"  />
+            <img src="/resources/images/dress2.jpg" alt="" />
         </div>
 <div class="C1">
-    <img src="/resources/images/dress3.jpg"  />
+    <img src="/resources/images/dress3.jpg"  alt=""/>
 </div>
 
 
