@@ -22,7 +22,7 @@ const Navbar = () => {
     <ul class="dropdown-menu">
       <li><button class="dropdown-item"><Link to = '/Clothing'>Clothing</Link></button></li>
       <li><a class="dropdown-item" href="/home1"><Link to = '/Accessories'>Accesories</Link></a></li>
-      {/* <li><a class="dropdown-item" href="#">Something else here</a></li>
+    {/* <li><a class="dropdown-item" href="#">Something else here</a></li>
       <li><a class="dropdown-item" href="#">Separated link</a></li> */}
     </ul>
         </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
   </div>
 </nav>
         </div>
-    )
+    ) 
 }
 
 export default Navbar

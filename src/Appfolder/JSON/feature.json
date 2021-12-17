@@ -1,16 +1,16 @@
 [
     
    {"id": 23,
-    "image":"/resources/images/featureimg1.jpg",
-    "name":"Pink Saree",
+    "image":"/resources/images/feature1.jpg",
+    "name":"White dress",
     "price":"150",
     "rating":4,
     "category":"Feauture items"       
    },
 
    {"id": 24,
-    "image":"/resources/images/featureimg2.jpg",
-    "name":"White silk saree",
+    "image":"/resources/images/feature4.jpg",
+    "name":"Beautiful party dress",
     "price":"150",
     "rating":4,
     "category":"Feauture items"       
@@ -19,7 +19,7 @@
 
 {"id": 25,
     "image":"/resources/images/featureimg3.jpg",
-    "name":"white Wedding Gown",
+    "name":"white Wedding gown",
     "price":"150",
     "rating":4,
     "category":"Feauture items"       
